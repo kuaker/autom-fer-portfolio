@@ -14,12 +14,14 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/chance": "^1.1.6",
     "cypress": "^13.11.0"
   },
   "dependencies": {
     "@badeball/cypress-cucumber-preprocessor": "^20.0.6",
     "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
     "@cypress/webpack-preprocessor": "latest",
+    "chance": "^1.1.11",
     "dotenv": "^16.4.5",
     "ts-loader": "latest",
     "typescript": "latest"
@@ -29,7 +31,6 @@
     "stepDefinitions": [
       "cypress/e2e/steps/**/*.ts"
     ],
-    "commonPath": "cypress/e2e/steps/common/common.ts",
     "html": {
       "enabled": true
     }
